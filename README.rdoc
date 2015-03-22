@@ -6,15 +6,15 @@ application up and running.
 Things you may want to cover:
 
 - Really simple example of generation HTML to PDF
-- Deployed in HEROKU. You can check the demo here http://pdfgen-evnpr.herokuapp.com/welcome/index.pdf 
+- Deployed in <b>Heroku</b>. You can check the demo here http://pdfgen-evnpr.herokuapp.com/welcome/index.pdf 
 - If you want to see the HTML version, it is here http://pdfgen-evnpr.herokuapp.com/welcome/index.html
 - if you want to see the code, it is here https://github.com/evnpr/pdfgen/blob/master/app/views/show.pdf.erb
-- Using wicked_pdf gem, can check the source : https://github.com/mileszs/wicked_pdf
+- Using `wicked_pdf` gem, can check the source : https://github.com/mileszs/wicked_pdf
 
 
 Steps : 
 
-1. add wicked_pdf gem to your Gemfile
-2. create HTML that you want to convert to PDF in .pdf.erb file as a template. Specify that in the controller.
-3. deploy the project to Heroku
+1. add `wicked_pdf` gem to your `Gemfile`.
+2. create HTML that you want to convert to PDF in `.pdf.erb` file as a template. Specify that in the controller.
+3. deploy the project to <b>Heroku</b>.
 4. access the URL now you can see the result.
